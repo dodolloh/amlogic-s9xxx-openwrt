@@ -9,6 +9,10 @@ on:
   repository_dispatch:
   workflow_dispatch:
     inputs:
+     ssh:
+        description: 'SSH connection to Actions'
+        required: false
+        default: 'true'
       source_branch:
         description: "Select the source branch"
         required: false
