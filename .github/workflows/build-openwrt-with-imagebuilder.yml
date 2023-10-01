@@ -12,6 +12,11 @@ on:
   repository_dispatch:
   workflow_dispatch:
     inputs:
+     ssh:
+        description: 'SSH connection to Actions'
+        required: false
+        default: 'true'
+        
       releases_branch:
         description: "Select the releases branch"
         required: false
