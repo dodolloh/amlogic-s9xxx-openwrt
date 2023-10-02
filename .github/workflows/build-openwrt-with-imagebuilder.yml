@@ -23,12 +23,7 @@ on:
           - openwrt:19.07.10
           - openwrt:18.06.9
           - immortalwrt:21.02.7
-        ssh:
-        description: 'SSH connection to Actions'
-        required: false
-        default: 'true'
-    
-      openwrt_board:
+        openwrt_board:
         description: "Select device board"
         required: false
         default: "all"
