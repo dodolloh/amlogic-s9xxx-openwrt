@@ -19,7 +19,6 @@ on:
         options:
           - lede
           - official
-     
       docker_img:
         description: "Set the docker image"
         required: false
