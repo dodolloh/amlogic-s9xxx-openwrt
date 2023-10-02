@@ -19,6 +19,10 @@ on:
         options:
           - lede
           - official
+      ssh:
+        description: 'SSH connection to Actions'
+        required: false
+        default: 'true'    
       docker_img:
         description: "Set the docker image"
         required: false
